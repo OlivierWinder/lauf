@@ -1,0 +1,25 @@
+@use '../utils' as u;
+
+.nav{
+ position: fixed;
+ width: 100%;
+ height: 100px;
+ // background-color: u.$accent-green;
+
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 0 100px;
+
+ z-index: 999;
+
+ &__list{
+  display: flex;
+  gap: 1rem;
+ }
+ &__list__item__link{
+  text-transform: capitalize;
+  color: u.$pure-white;
+ }
+
+}

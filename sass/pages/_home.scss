@@ -1,0 +1,39 @@
+@use '../utils' as u;
+
+.home{
+
+.header{
+ width: 100vw;
+ height: 100vh;
+ background: url(/resources/Images/banner.jpg);
+ background-size: cover;
+ // background-attachment: fixed;
+}
+
+.sect-quote{
+ width: 100vw;
+ height: 100vh;
+ background-color: u.$accent-green;
+ position: relative;
+
+ &__text{
+  font-family: 'Spectral', serif;
+  color: u.$pure-white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+
+  line-height: 5rem;
+  font-style: italic;
+ }
+}
+
+.sect-machteld{
+ width: 100vw;
+ height: 100vh;
+}
+
+
+}
